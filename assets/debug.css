@@ -7,7 +7,7 @@
     height: 90px;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,19 +38,79 @@
 .container{
     height: calc(100vh - 90px);
     width: 100%;
-    margin-top: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-inline: 1rem;
     overflow-y: auto;
 }
 
-/* .nav-bar{
-    background-color: crimson;
 
-} */
+.nav-bar{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+    padding: 0.5rem;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.currently-rule{
+    background-color: #ADFF2F;
+    width: 30px;
+    height: 2px;
+    margin: 3px;
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+
+
+/* Recently Played */
+
+.last-listen{
+    display: flex;
+    gap: 1rem;
+}
+
+.container .card{
+    max-width: 100%;
+    flex: 0 0 calc((100% - 6rem) / 6);
+}
 
 
 
+.card img{
+    max-width: 100%;
+}
 
 
+/* Creato per me */
+
+.suggestion-songs{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Artisti Popolari */
+
+.artist{
+    display: flex;
+    gap: 1rem;
+}
+
+.artist img{
+    border-radius: 50%;
+}
 
 
 
@@ -63,4 +123,6 @@
     background-color: #282828;
     position: fixed;
     bottom: 0;
+    left: 0;
+    z-index: 99;
 }
