@@ -1,0 +1,66 @@
+
+
+
+/* Header */
+
+.btn-bar{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.upgrade-btn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5rem;
+    padding: 0.8rem 2rem;
+    margin-right: 1.5rem;
+}
+
+/* Main */
+
+.options-bar{
+    width: 250px;
+    height: calc(100vh - 90px);
+    background-color: black;
+}
+ main{
+    display: flex;
+ }
+
+
+.container{
+    height: calc(100vh - 90px);
+    width: 100%;
+    margin-top: 90px;
+    overflow-y: auto;
+}
+
+/* .nav-bar{
+    background-color: crimson;
+
+} */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.control-bar{
+    height:90px;
+    width: 100%;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+}
